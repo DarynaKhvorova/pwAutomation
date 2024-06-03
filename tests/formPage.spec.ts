@@ -37,6 +37,10 @@ test.describe("FORM PAGE TYPE", () => {
         await page.getByPlaceholder('Address 1').fill('Orlando');
         await page.getByRole('textbox',{name:"Address 2"}).fill('704 Tobie Ct');
         await page.getByRole('textbox',{name:"Zip Code"}).fill('32825');
+<<<<<<< HEAD
+=======
+        //console.log('hello!!')
+>>>>>>> 788a56ba73fc59ac2376a81ede9c966fe6a93e1c
        // await page.pause();
     })
 })
